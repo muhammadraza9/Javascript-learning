@@ -85,3 +85,13 @@ myfunc();
        console.log(x);
 }
 
+
+function outer(){
+   let name = "raza";
+
+      function inner(){
+          console.log(name);
+      }
+      inner();
+}
+outer();
