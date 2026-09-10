@@ -45,3 +45,17 @@ let person = {
 for (let key in person){
          console.log(key + ":" +person[key])     
 }
+
+
+
+/////////
+
+let i = 0;
+do{
+              i += 1;
+              console.log(i);
+}while (i < 4);
+
+
+//////////////
+

@@ -39,3 +39,55 @@ let fst = b.shift();
  }
 
 
+
+ // Full Array display
+
+ const array = ["BMW", "HONDA", "MARK X"];
+
+ let cars = JSON.stringify(array);
+
+ console.log(cars);
+
+ // 
+
+ const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+  fruits.forEach((fruit) => {
+             console.log(fruit);
+  });
+
+  
+
+// for (let i = 0; i < fruits.length; i++) {
+//           console.log(fruits[i]);
+// }
+
+
+// concat method
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+console.log(arr1.concat(arr2));
+
+
+// flat method
+
+const arr = [[6,7],[9,0],[12,2]];
+
+const arry = arr.flat();
+
+console.log(arry);
+
+
+//find method
+
+const arro = [2,4,5,6,8,9,45,45,56];
+
+let number = arro.find(myfunction);
+
+function myfunction( value, index, array){
+          return value > 9;
+}
+
+console.log(number);
