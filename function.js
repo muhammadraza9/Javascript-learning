@@ -158,7 +158,7 @@
 
 
 
-// scope chain  and closure 
+// scope chain  
 
 
 function outer(){
